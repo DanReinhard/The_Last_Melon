@@ -15,8 +15,38 @@ h2 {
     display: flex;
     justify-content: space-between;
     max-width: 90%;
+    
 
 }
-#comment {
-    padding-right: 70%;
+#submit {
+    color: blue;
 }
+#comment {
+    padding-right: 60%;
+    margin: 0px 5px;
+}
+.containForComment {
+    background-color: lightgrey;
+    margin: 20px;
+    border-radius: 12px;
+
+}
+.edit_butt, .delete_butt {
+    color: #55f;
+}
+.submittedComment {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.edit_input {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.no_display {
+    display: none;
+} 
